@@ -1,0 +1,29 @@
+
+
+<suite name="test">
+
+
+<!-- 	<listeners>
+
+		<listener class-name="com.ebay.util.CustomReporter" />
+
+	</listeners>
+
+ -->
+	<test name="loginTest">
+
+		<!-- <groups> <run> <include>login</include> </run> </groups> -->
+
+		<classes>
+			<class name="com.ebay.test.LoginTestPlan">
+				<methods>
+					<include name="login" />
+				</methods>
+			</class>
+		</classes>
+
+		<!-- <packages> <package name="com.ebay.test.LoginTestPlan" /> </packages> -->
+
+	</test>
+
+</suite>
