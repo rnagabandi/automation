@@ -7,7 +7,7 @@ import java.io.UnsupportedEncodingException;
 
 import org.testng.annotations.DataProvider;
 
-import au.com.bytecode.opencsv.CSVReader;
+import com.csvreader.CsvReader;
 
 public class LoginDataProvider {
 
@@ -15,7 +15,7 @@ public class LoginDataProvider {
 	public Object[][] loginTestsData() {
 		
 		try {
-			CSVReader reader = new CSVReader(new InputStreamReader(new FileInputStream(""), "UTF-8"));
+			CsvReader reader = new CsvReader(new InputStreamReader(new FileInputStream(""), "UTF-8"));
 		} catch (UnsupportedEncodingException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
