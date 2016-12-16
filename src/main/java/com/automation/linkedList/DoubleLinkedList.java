@@ -138,9 +138,9 @@ public class DoubleLinkedList {
 		for (int i = 0; i < index-1; i++) {
 			node=node.next;
 		}
-		node.next.previous=node;
+		
 		node.next=node.next.next;
-	
+		node.next.previous=node;
 	}
 	
 	public static void main(String[] args) {
