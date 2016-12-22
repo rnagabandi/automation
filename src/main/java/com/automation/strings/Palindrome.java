@@ -21,7 +21,7 @@ public class Palindrome {
 		System.out.println(isPalindrome("mmaad"));
 		
 	}
-
+	
 	public static boolean isPalindrome(String str){
 		
 		HashMap<Character,Integer> map = new HashMap<Character,Integer>();
